@@ -1,3 +1,4 @@
+import { ConfigureService } from './ng-configure/ng-configure.service';
 import { Component } from '@angular/core';
 
 @Component({
@@ -7,4 +8,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+
+  constructor(public configService: ConfigureService) {
+    console.log(configService.config);
+  }
 }
