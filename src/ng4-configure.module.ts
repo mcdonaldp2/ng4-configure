@@ -1,6 +1,6 @@
 import { Http, HttpModule } from '@angular/http';
 import { ConfigureOptions } from './configure-options';
-import { ConfigureService } from './ng2-configure.service';
+import { ConfigureService } from './ng4-configure';
 import { NgModule, ModuleWithProviders, APP_INITIALIZER } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
