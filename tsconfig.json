@@ -7,13 +7,14 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "sourceMap": true,
-    "declaration": true
+    "declaration": true,
+    "lib": ["es2016", "dom"]
   },
   "files": [
-    "./src/ng4-configure.ts"
+    "./ng4-configure.ts"
   ],
   "exclude": [
-    "./node_modules",
-    "./demo"
+    "node_modules",
+    "demo"
   ]
 }

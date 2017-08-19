@@ -4,8 +4,7 @@
   "description": "loads a general config object from json file before app initialization",
   "main": "index.js",
   "scripts": {
-    "test": "echo sup",
-    "prepublish": "tsc"
+    "prepare": "tsc"
   },
   "keywords": [
     "configuration",
@@ -15,6 +14,14 @@
   ],
   "author": "Paul McDonald",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mcdonaldp2/ng4-configure.git"
+  },
+  "bugs": {
+    "email": "paul0302@mac.com",
+    "url": "https://github.com/mcdonaldp2/ng4-configure/issues"
+  },
   "dependencies": {
     "@angular/animations": "^4.0.0",
     "@angular/common": "^4.0.0",
@@ -31,5 +38,6 @@
   },
   "devDependencies": {
     "typescript": "^2.4.2"
-  }
+  },
+  "typings": "./ng4-configure.d.ts"
 }
