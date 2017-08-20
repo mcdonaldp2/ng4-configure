@@ -1,4 +1,7 @@
 {
+  "angularCompilerOptions": {
+    "genDir": "compiled"
+  },
   "compileOnSave": false,
   "compilerOptions": {
     "noImplicitAny": true,
