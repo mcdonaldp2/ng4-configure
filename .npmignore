@@ -10,3 +10,5 @@ Thumbs.db
 demo
 *.ts
 !*.d.ts
+/compiled
+*.ngFactory.ts
