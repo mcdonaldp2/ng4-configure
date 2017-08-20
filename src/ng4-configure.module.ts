@@ -30,6 +30,6 @@ export class NgConfigureModule {
   }
 }
 
-export function init(configService: ConfigureService, http: Http): () => Promise<any> {
+export function init(configService: ConfigureService, http: Http) {
   return () => configService.load();
 }
