@@ -1,6 +1,6 @@
 {
     "name": "Paul",
-    "Test": "This is a test config for ng4-configure.",
+    "favoriteColor": "green",
     "google": "https://google.com",
-    "ng4-configure-repo": "https://github.com/mcdonaldp2/ng4-configure"
+    "ng4_configure_repo": "https://github.com/mcdonaldp2/ng4-configure"
 }

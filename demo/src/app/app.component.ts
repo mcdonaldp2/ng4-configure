@@ -6,14 +6,10 @@ import { ConfigureService } from 'ng4-configure/ng4-configure';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  configStr: string;
-
+  title = 'app';
+  
   constructor(public configService: ConfigureService) {
     console.log("Here is the config loaded by ng4-configure:")
     console.log(configService.config);
-    
-    this.configStr = JSON.stringify(configService.config);
   }
-
-  title = 'app';
 }
