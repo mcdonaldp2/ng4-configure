@@ -97,7 +97,7 @@ Screenshot of demo app:
 ## ConfigureOptions Attributes
 
 #### ConfigurationURL
-    Specifies the location of the configuration file.  By default this location is set to 'assets/config.json'
+  Specifies the location of the configuration file.  By default this location is set to ```'assets/config.json'```
 #### AppVersion
   Specifies the version of the application.  To ensure that client browsers are getting the latest version of your config file after a release and not just a version that is cached in the browser, change this value when doing releases. The version will be appended to the url like so: <br />
     ``` http://localhost:1495/assets/config.json?v=<AppVersion> ```
