@@ -3,8 +3,7 @@
 angular 4 library to easily load a configuration file prior to application initialization and use it anywhere in your app.<br />
 <br />
 Screenshot of demo app:
-![image](https://user-images.githubusercontent.com/9122526/29492199-e7f3ab1e-8541-11e7-8b07-153f409840c8.png) 
-
+![image](https://user-images.githubusercontent.com/9122526/29547764-14cd008e-86ca-11e7-9768-2f2e516a8f24.png)
 ## Usage
 
 1. Use NPM to install ng4-configure into your project
